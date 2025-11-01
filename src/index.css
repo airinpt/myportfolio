@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white text-gray-800;
+/* Remove background image dependencies temporarily */
+.bg-hero {
+  background: linear-gradient(to bottom right, #eff6ff, #dbeafe, #bfdbfe);
 }

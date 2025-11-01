@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom portfolio helpers */
+.stroke-text {
+  -webkit-text-stroke: 1px rgba(0,0,0,0.35);
+}
+
+/* small responsive tweaks used by hero */
+@media (min-width: 768px) {
+  .hero-portrait {
+    width: 420px;
+    height: 420px;
+  }
+}

@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-4 text-center">
-      <p>© {new Date().getFullYear()} Bro's Portfolio — Dibangun dengan ❤️ + React</p>
+    <footer className="bg-[#0f172a] text-white py-5 text-center">
+      <p className="text-sm opacity-80">
+        © {new Date().getFullYear()} Airin’s Portfolio — Dibangun dengan cinta, logika, dan sedikit kafein ☕
+      </p>
     </footer>
   );
 }
