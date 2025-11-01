@@ -15,9 +15,9 @@ export default function Hero() {
           Welcome, My Portfolio guys 👋
         </h2>
 
-        <h2 className="mt-3 text-5xl md:text-7xl font-extrabold drop-shadow-lg">
-          Airin Yenita Putri
-        </h2>
+        <h1 className="mt-3 text-5xl md:text-7xl font-normal italic tracking-wider animate-pulse drop-shadow-[0_0_25px_rgba(255,255,255,0.5)] text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-200 to-white" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Airin Yenita Putri
+        </h1>
 
         <p className="mt-5 max-w-2xl mx-auto leading-relaxed text-white/90">
           Saya siswa kelas XI dari jurusan Rekayasa Perangkat Lunak di SMKN 1. 
